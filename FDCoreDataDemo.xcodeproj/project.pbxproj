@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5055F9AF1EA70CB800D63F8C /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5055F9AC1EA70CB800D63F8C /* Person+CoreDataClass.m */; };
+		5055F9B01EA70CB800D63F8C /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5055F9AE1EA70CB800D63F8C /* Person+CoreDataProperties.m */; };
 		507010F91EA4C39800613E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 507010F81EA4C39800613E90 /* main.m */; };
 		507010FC1EA4C39800613E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507010FB1EA4C39800613E90 /* AppDelegate.m */; };
 		507010FF1EA4C39800613E90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507010FE1EA4C39800613E90 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5055F9AB1EA70CB800D63F8C /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		5055F9AC1EA70CB800D63F8C /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		5055F9AD1EA70CB800D63F8C /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5055F9AE1EA70CB800D63F8C /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 		507010F41EA4C39800613E90 /* FDCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507010F81EA4C39800613E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		507010FA1EA4C39800613E90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 		507010EB1EA4C39800613E90 = {
 			isa = PBXGroup;
 			children = (
+				5055F9AB1EA70CB800D63F8C /* Person+CoreDataClass.h */,
+				5055F9AC1EA70CB800D63F8C /* Person+CoreDataClass.m */,
+				5055F9AD1EA70CB800D63F8C /* Person+CoreDataProperties.h */,
+				5055F9AE1EA70CB800D63F8C /* Person+CoreDataProperties.m */,
 				507010F61EA4C39800613E90 /* FDCoreDataDemo */,
 				507011131EA4C39800613E90 /* FDCoreDataDemoTests */,
 				5070111E1EA4C39800613E90 /* FDCoreDataDemoUITests */,
@@ -283,6 +293,8 @@
 				507011051EA4C39800613E90 /* FDCoreDataDemo.xcdatamodeld in Sources */,
 				507010FC1EA4C39800613E90 /* AppDelegate.m in Sources */,
 				507010F91EA4C39800613E90 /* main.m in Sources */,
+				5055F9B01EA70CB800D63F8C /* Person+CoreDataProperties.m in Sources */,
+				5055F9AF1EA70CB800D63F8C /* Person+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +530,7 @@
 				507011261EA4C39800613E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		507011271EA4C39800613E90 /* Build configuration list for PBXNativeTarget "FDCoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				507011291EA4C39800613E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5070112A1EA4C39800613E90 /* Build configuration list for PBXNativeTarget "FDCoreDataDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				5070112C1EA4C39800613E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
